@@ -1,0 +1,18 @@
+{
+  "output": "growth-ring-privacy.mp4",
+  "_note": "隐私卖点版：只覆盖想改的文案字段，其余继承 default.json（钩子需两行叙事，故也覆盖）",
+  "brand": {
+    "slogan": "一本只属于你的日记本"
+  },
+  "content": {
+    "hook": {
+      "line1": "你把日记写在了别人云上。",
+      "line2": "它删了。",
+      "sub": "年轮 · growth_ring"
+    },
+    "outro": {
+      "privacyLines": ["不上传，不备份，不打扰。", "你的字，只写给你自己看。"],
+      "ctaSub": "一本只属于你的日记本"
+    }
+  }
+}

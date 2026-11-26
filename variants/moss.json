@@ -1,0 +1,10 @@
+{
+  "output": "growth-ring-moss.mp4",
+  "_note": "青苔绿强调色版：只覆盖 palette，文案全部继承 default.json",
+  "palette": {
+    "nightAmber": "#8FA98A",
+    "paperAmber": "#6B8464",
+    "nightMoss": "#C9A227",
+    "paperMoss": "#A8874F"
+  }
+}

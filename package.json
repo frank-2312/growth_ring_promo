@@ -1,0 +1,26 @@
+{
+  "name": "growth-ring-promo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "年轮 growth_ring 的竖屏宣传视频 —— 本地写代码，Colab 渲染",
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts GrowthRingPromo out/growth-ring-promo.mp4 --codec=h264",
+    "render:colab": "remotion render src/index.ts GrowthRingPromo out/growth-ring-promo.mp4 --codec=h264 --concurrency=4 --log=error",
+    "render:batch": "node render-batch.mjs",
+    "typecheck": "tsc --noEmit",
+    "still": "remotion still src/index.ts GrowthRingPromo out/still.png --frame=90"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.547",
+    "@remotion/fonts": "4.0.547",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.547"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}

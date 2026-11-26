@@ -1,0 +1,62 @@
+{
+  "output": "growth-ring-promo.mp4",
+  "brand": {
+    "name": "年轮",
+    "slogan": "一本会越来越懂你的日记本",
+    "packageName": "年轮 · growth_ring"
+  },
+  "palette": {},
+  "content": {
+    "hook": {
+      "line1": "它说我「怕被落下」。",
+      "line2": "我删了这句话。",
+      "sub": "年轮 · growth_ring"
+    },
+    "reveal": {
+      "line1": "第二天，它又写了回来。",
+      "line2": "这次还附上了三行原文。",
+      "evidenceTitle": "原文证据",
+      "evidence": [
+        "3月12日 ·「大家都去了，我一个人留下来也挺好」",
+        "6月8日  ·「说不在乎是假的」",
+        "9月30日 ·「他们走后我松了口气，又有点慌」"
+      ],
+      "kicker": "每一条判断，都必须有你写过的话作证据。"
+    },
+    "reveal2": {
+      "line1": "这不是算命。",
+      "line2": "这是一本会反驳你的日记本。",
+      "footnote": "它对你形成一个假设，也可能被你推翻。"
+    },
+    "write": {
+      "label": "01 / 写",
+      "heading": "一天一篇，不打扰。",
+      "sampleDate": "11月26日 · 周三",
+      "sampleText": "今天走在路上，突然想起很久以前的事。\n没什么特别的原因，就是想记下来。",
+      "autoSave": "已自动保存"
+    },
+    "understand": {
+      "label": "02 / 懂",
+      "heading": "它读你写下的每一篇，",
+      "heading2": "形成一个可以被推翻的假设。",
+      "personaFields": [
+        { "key": "此刻的你", "value": "安静，但心里有很多在转" },
+        { "key": "反复出现", "value": "「想独立」与「怕被落下」" },
+        { "key": "没点明的", "value": "你写了很多次，却没说破的事" },
+        { "key": "还没弄懂", "value": "一个问题，留着慢慢看" }
+      ],
+      "evidence": "旧结论没有新证据，它就留着；被推翻，就标「变弱」。"
+    },
+    "exportScene": {
+      "label": "03 / 导出",
+      "heading": "把日子，排成一本可以打印的书。",
+      "bookTitle": "这一刻的你",
+      "bookSub": "年轮 · 2026"
+    },
+    "outro": {
+      "privacyLines": ["没有账号，没有云同步。", "日记只存在你的设备上。"],
+      "cta": "年轮",
+      "ctaSub": "一本会越来越懂你的日记本"
+    }
+  }
+}
