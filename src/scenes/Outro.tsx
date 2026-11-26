@@ -100,7 +100,7 @@ export const Outro: React.FC = () => {
           position: 'absolute',
           inset: 0,
           background: '#000',
-          opacity: interpolate(frame, [sec(7.83), DURATION], [0, 1], {
+          opacity: interpolate(frame, [sec(6), DURATION], [0, 1], {
             extrapolateLeft: 'clamp',
             extrapolateRight: 'clamp',
           }),
