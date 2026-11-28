@@ -2,8 +2,10 @@ import React from 'react';
 import { Composition } from 'remotion';
 import { Timeline } from './Video';
 import { KineticTimeline } from './KineticVideo';
+import { CinematicTimeline } from './CinematicVideo';
 import { fps, width, height, durationInFrames } from './theme';
 import { kineticTotalFrames } from './kinetic/timeline';
+import { cinematicTotalFrames } from './cinematic/timeline';
 import { defaultConfig, VideoConfig } from './config';
 import './fonts'; // 触发字体加载（模块副作用）
 
@@ -24,6 +26,15 @@ export const RemotionRoot: React.FC = () => (
       id="GrowthRingKinetic"
       component={KineticTimeline}
       durationInFrames={kineticTotalFrames}
+      fps={fps}
+      width={width}
+      height={height}
+    />
+    {/* 第三款：电影运镜版（37 秒） */}
+    <Composition
+      id="GrowthRingCinematic"
+      component={CinematicTimeline}
+      durationInFrames={cinematicTotalFrames}
       fps={fps}
       width={width}
       height={height}
